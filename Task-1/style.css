@@ -1,0 +1,79 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(5, 24, 41);
+  color: white;
+}
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.about,
+.projects,
+.contact {
+  padding: 20px;
+  margin: 20px 0;
+  background: #fff;
+  color: #333;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h2 {
+  text-align: center;
+  color: #333;
+}
+.project {
+  margin: 20px 0;
+}
+.project img {
+  max-width: 100%;
+  height: auto;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+}
+.contact-form button {
+  padding: 10px;
+  background: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+.first-page {
+  text-align: center;
+  padding: 100px 0;
+  background-color: rgb(5, 24, 41);
+}
+.header-links a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  border-radius: 10px; 
+  border: 1px solid #fff; 
+  margin: 0;
+  padding: 10px;
+}
+.tech-stack-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tech-stack {
+  display: inline-block;
+  margin: 0 20px;
+}
